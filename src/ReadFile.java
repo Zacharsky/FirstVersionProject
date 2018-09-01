@@ -15,7 +15,7 @@ public class ReadFile {
             while ((line = bufferedReader.readLine()) != null) {
                 if (line.contains("BO") ) {
                     b = true;
-                }else if (line.contains("CHO")) {
+                }else if (line.contains("INS")) {
                     in = true;
                 }
                 else {
